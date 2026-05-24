@@ -1,0 +1,9 @@
+name: SpecjalnyKompas
+version: 1.0
+main: pl.pcraft.specjalnykompas.SpecjalnyKompas
+api-version: '1.21'
+commands:
+  gra:
+    description: Rozpoczyna grę, rozdaje przedmioty i ustawia cel.
+    permission: specjalnykompas.admin
+    usage: /gra <1>
